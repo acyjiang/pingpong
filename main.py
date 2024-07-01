@@ -15,19 +15,7 @@ def main():
         'model': model,
     }
 
-    # chatbot = Chatbot(chatbot_args)
-
-    # question1 = "Explain the importance of fast language models"
-    # response = chatbot.generate_output(question1)
-
-    # print(response)
-
-    # question2 = "With that in mind, why is Groq a good tool?"
-    # response = chatbot.generate_output(question2)
-
-    # print(response)
-
-    topic = "Trump"
+    topic = "Tennis"
     conversation_length = 5
 
     conversation = Conversation(
